@@ -1,0 +1,4 @@
+---
+#To use this, you'll need to copy it to your node's hostname.yaml.
+#For example:
+#   cp example_node.yaml $(facter fqdn).yaml
