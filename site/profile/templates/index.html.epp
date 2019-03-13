@@ -1,0 +1,18 @@
+<%- | 
+      String  $title,
+      String  $motd_message,
+      String  $location,
+      String  $powerstates,
+| -%>
+
+<HTML>
+<TITLE></TITLE>
+
+<BODY>
+<H1>Title: <%= $title %></H1>
+<H2>Message: <%= $motd_message %></H2>
+<H2>Location: <%= $location %></H2>
+<H2>Power States: <%= $powerstates %></H2>
+
+</BODY>
+</HTML>
